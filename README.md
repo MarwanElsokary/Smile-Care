@@ -48,18 +48,6 @@ Additionally, an **AI system built with Flask** analyzes case images to assist i
 
 ---
 
-## 📡 API Integration
-
-The AI diagnosis module is connected through a Flask endpoint:
-
-```
-https://dcbe-156-211-90-124.ngrok-free.app/predict
-```
-
-It accepts image uploads and returns diagnostic predictions that assist doctors.
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -85,55 +73,6 @@ If Firebase isn’t set up yet, add your configuration files:
 
 ---
 
-## 🧩 Folder Structure
-
-```text
-lib/
-│
-├── core/               # Constants, helpers, theme, routes
-├── features/
-│   ├── auth/           # Login, signup, role-based routing
-│   ├── doctor/         # Doctor’s case upload, home, profile
-│   ├── student/        # Request case, view status
-│   ├── supervisor/     # Review and approve/reject cases
-│   ├── onboarding/     # First-time onboarding logic
-│   └── ai/             # AI API integration (Flask prediction)
-├── data/               # Repositories, Firebase integration
-├── domain/             # Entities, models, use cases
-├── presentation/       # Cubits, screens, widgets
-└── main.dart           # Entry point
-```
-
----
-
-## 🧠 Dependencies
-
-Main dependencies from `pubspec.yaml`:
-
-```yaml
-dependencies:
-  flutter:
-  bloc:
-  flutter_bloc:
-  dio:
-  hive:
-  hive_flutter:
-  firebase_core:
-  firebase_auth:
-  cloud_firestore:
-  firebase_storage:
-  firebase_messaging:
-  flutter_image_compress:
-  cached_network_image:
-  flutter_staggered_grid_view:
-  animated_splash_screen:
-  smooth_page_indicator:
-  carousel_slider:
-  tflite_flutter:
-  tflite_flutter_processing:
-```
-
----
 
 ## 🖼️ Screenshots
 
@@ -171,3 +110,4 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ---
 
 > 🪄 *Smile Care — bridging dental education, technology, and AI for better smiles.*
+
