@@ -59,31 +59,6 @@ Additionally, an **AI system built with Flask** analyzes case images to assist i
 
 ### Installation
 
-```bash
-git clone https://github.com/MarwanElsokary/Smile-Care.git
-cd Smile-Care
-flutter pub get
-flutter run
-```
-
-If Firebase isn’t set up yet, add your configuration files:
-
-* `android/app/google-services.json`
-* `ios/Runner/GoogleService-Info.plist`
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (>= 3.x)
-- Android Studio / VSCode
-- Emulator or physical device
-
----
-
-### Installation
-
 1. Clone the repository:
     ```bash
     git clone https://github.com/MarwanElsokary/Smile-Care.git
@@ -111,6 +86,14 @@ If Firebase isn’t set up yet, add your configuration files:
     ```bash
     flutter test
     ```
+
+
+If Firebase isn’t set up yet, add your configuration files:
+
+* `android/app/google-services.json`
+* `ios/Runner/GoogleService-Info.plist`
+
+---
 
 ## 🤝 Contributing
 
