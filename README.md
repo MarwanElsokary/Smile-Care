@@ -73,26 +73,56 @@ If Firebase isn’t set up yet, add your configuration files:
 
 ---
 
+## 🚀 Getting Started
 
-## 🖼️ Screenshots
-
-<p align="center">
-  <img src="assets/screenshots/login.png" alt="Login Screen" width="22%" />
-  <img src="assets/screenshots/doctor_home.png" alt="Doctor Home" width="22%" />
-  <img src="assets/screenshots/add_case.png" alt="Add Case" width="22%" />
-  <img src="assets/screenshots/ai_diagnosis.png" alt="AI Diagnosis" width="22%" />
-</p>
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (>= 3.x)
+- Android Studio / VSCode
+- Emulator or physical device
 
 ---
 
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/MarwanElsokary/Smile-Care.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd Smile_care
+    ```
+
+3. Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the app:
+    ```bash
+    flutter run
+    ```
+
+### Testing
+
+1. Run the app:
+
+    ```bash
+    flutter test
+    ```
+
 ## 🤝 Contributing
 
-1. Fork the repo
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Create a Pull Request
+- Fork the repo
 
+- Create your feature branch (git checkout -b feature/YourFeature)
+
+- Commit changes (git commit -m 'Add some feature')
+
+- Push to branch (git push origin feature/YourFeature)
+
+- Open a Pull Request
 ---
 
 ## 👨‍💻 Author
@@ -103,11 +133,7 @@ Flutter Developer
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
 
 > 🪄 *Smile Care — bridging dental education, technology, and AI for better smiles.*
+
 
